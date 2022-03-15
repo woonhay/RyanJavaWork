@@ -8,3 +8,4 @@ This repo contains all the work I have done so far including
 -MergeArray
 -MergeSort
 -PalindromeChecker
+-BinaryTree
