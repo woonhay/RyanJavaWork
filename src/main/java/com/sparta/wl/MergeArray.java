@@ -15,6 +15,7 @@ public class MergeArray {
     public static int[] sortTwoArray(int[] array1, int[] array2) {
         int[] sortedNumbers = new int[array1.length + array2.length];
         int n1 = 0, n2 = 0;
+
         for (int i = 0; i < sortedNumbers.length; i ++) {
             if (n1 >= array1.length) {
                 sortedNumbers[i] = array2[n2];
@@ -33,5 +34,9 @@ public class MergeArray {
             }
         }
         return sortedNumbers;
+    }
+
+    private static void addToArray(int[] array, int pos, int value) {
+        array[pos] = value;
     }
 }
